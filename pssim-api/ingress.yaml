@@ -11,7 +11,7 @@ spec:
   - host: pssim-api.minvu.cl
     http:
       paths:
-      - path: /
+      - path: /api/
         backend:
           serviceName: pssim-api
           servicePort: 80

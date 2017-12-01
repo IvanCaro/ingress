@@ -6,7 +6,7 @@ kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssi
 
 kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/svc.yaml
 
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/secret.yaml
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/secret.yaml
 
 kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/ingress.yaml
 
