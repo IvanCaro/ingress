@@ -2,13 +2,15 @@
 
 ## Pasos
 
-### Crear VM master ubuntu server 16 TLS en azure en la red de minvu
+### Crear VMs en azure con red de minvu
 
-### Crear VM minion ubuntu server 16 TLS en azure en la red de minvu
+Crear VM master ubuntu server 16 TLS en azure en la red de minvu
 
-### Entrar por ssh a la maquina master
+Crear VM minion ubuntu server 16 TLS en azure en la red de minvu
 
-#### Crear k8 en master
+### Crear k8 en master
+
+#### Entrar por ssh a la maquina master
 
 ##### Ingresar como root
 sudo -s
@@ -41,7 +43,7 @@ export KUBECONFIG=$HOME/admin.conf
 kubectl apply --filename https://git.io/weave-kube-1.6
 
 
-#### Crear k8 en minion
+### Crear k8 en minion
 
 ##### Ingresar como root
 sudo -s
@@ -61,6 +63,8 @@ apt-get install -y docker.io kubeadm kubectl kubelet kubernetes-cni
 
 ##### Iniciar kubeadm con join
 ejecutar el comando join guardado desde el master
+
+
 
 
 
