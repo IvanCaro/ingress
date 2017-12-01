@@ -17,4 +17,4 @@ spec:
   selector:
     app: nginx-ingress-2
   externalIPs:
-  - 10.201.2.20
+  - 10.201.2.18
