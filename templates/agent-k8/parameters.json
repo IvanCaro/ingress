@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "minvu"
+        },
+        "virtualNetworkName": {
+            "value": "Vnet-Qa-Produccion"
+        },
+        "adminPassword": {
+            "value": "sgz4UPyNrdncHwp4m3GmmxfQn9bXmM"
+        },
+        "availabilitySetPlatformFaultDomainCount": {
+            "value": "2"
+        },
+        "availabilitySetPlatformUpdateDomainCount": {
+            "value": "3"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "clminvulagash"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/b21c32c2-4e59-433a-8c53-ebd4729d33ab/resourceGroups/administracion/providers/Microsoft.Storage/storageAccounts/clminvulagash"
+        },
+        "subnetName": {
+            "value": "SubredProduccion"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}

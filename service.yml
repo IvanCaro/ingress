@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cas-dto-service-web
+  labels:
+    name: cas-dto-web
+    context: cas-dto-web
+spec:
+  type: NodePort
+  ports:
+    # the port that this service should serve on
+    - port: 80
+      nodePort: 30001
+  # label keys and values that must match in order to receive traffic for this service
+  selector:
+    name: cas-dto-web
+    context: cas-dto-web
+  externalIPs:
+  - 10.201.2.13
+  - 10.201.2.15
