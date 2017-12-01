@@ -1,7 +1,3 @@
-Bag Attributes
-    localKeyID: 01 00 00 00 
-subject=/C=CL/ST=Region Metropolitana/L=Santiago/O=Ministerio de la Vivienda y Urbanismo/CN=*.minvu.cl
-issuer=/C=BE/O=GlobalSign nv-sa/CN=GlobalSign Organization Validation CA - SHA256 - G2
 -----BEGIN CERTIFICATE-----
 MIIGVDCCBTygAwIBAgISESH8bgNXM3DLDlb9YilsCsGJMA0GCSqGSIb3DQEBCwUA
 MGYxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYD
