@@ -17,8 +17,4 @@ spec:
   selector:
     app: nginx-ingress
   externalIPs:
-<<<<<<< HEAD:yml-coffe-tea/ingress-svc.yaml
-  - 10.201.2.20
-=======
-  - 10.201.2.18   
->>>>>>> 5f7470f50b3800d906cab3bee8d7c8c0e6af54a1:yml/ingress-svc.yaml
+  - 10.201.2.18
