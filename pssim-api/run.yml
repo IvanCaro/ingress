@@ -1,9 +1,9 @@
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/default-server-secret.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/nginx-ingress-rc.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/rc.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/svc.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/secret.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/ingress.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/ingress-svc.yaml
+kubectl apply -f  https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/default-server-secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/nginx-ingress-rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/svc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/ingress.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/pssim-api/ingress-svc.yaml
 
 
