@@ -67,7 +67,9 @@ kubectl apply --filename https://git.io/weave-kube-1.6
 1. Ingresar por ssh a minion
 
 2. Ingresar como root
+```
 sudo -s
+```
 
 3. Agregar a apt-get las direccion de google para k8
 ```
