@@ -1,0 +1,9 @@
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/default-server-secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/nginx-ingress-rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/svc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/ingress.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/ingress-svc.yaml
+
+
