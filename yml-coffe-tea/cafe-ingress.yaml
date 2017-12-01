@@ -5,10 +5,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - cafe2.minvu.cl
+    - cafe1.minvu.cl
     secretName: cafe-secret
   rules:
-  - host: cafe2.minvu.cl
+  - host: cafe1.minvu.cl
     http:
       paths:
       - path: /tea
