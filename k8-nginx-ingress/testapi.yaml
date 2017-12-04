@@ -28,6 +28,7 @@ metadata:
   labels:
     application: testapi 
 spec:
+  type: ClusterIP
   selector:
     application: testapi 
   ports:
