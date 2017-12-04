@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: tea
-        #image: nginxdemos/hello
-        image: ivancaro/test:latest
+        image: nginxdemos/hello
+        #image: ivancaro/test:latest
         ports:
         - containerPort: 80
