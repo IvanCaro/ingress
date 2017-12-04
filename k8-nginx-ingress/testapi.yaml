@@ -1,0 +1,65 @@
+apiVersion: extensions/v1beta1 
+kind: Deployment 
+metadata:
+  name: testapi 
+  namespace: default 
+  labels:
+    application: testapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      application: testapi
+  template:
+    metadata:
+      labels:
+        application: testapi 
+    spec:
+      containers:
+        - name: testapi
+          image: daemonza/testapi:latest
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: testapi 
+  namespace: default 
+  labels:
+    application: testapi 
+spec:
+  type: NodePort
+  selector:
+    application: testapi 
+  ports:
+  - port: 8080
+    targetPort: 8080 
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: testapi
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    ingress.kubernetes.io/ssl-redirect: "true"
+spec:
+  tls:
+  - hosts:
+    - "blue.minvu.cl"
+    secretName: pssim-secret
+  rules:
+  - host: "blue.minvu.cl"
+    http:
+      paths:
+      - path: /testapi/get/blue
+        backend:
+          serviceName: testapi
+          servicePort: 8080
+  - host: "green.minvu.cl"
+    http:
+      paths:
+      - path: /testapi/get/green
+        backend:
+          serviceName: testapi
+          servicePort: 8080        
