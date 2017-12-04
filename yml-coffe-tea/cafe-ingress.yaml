@@ -3,10 +3,10 @@ kind: Ingress
 metadata:
   name: cafe-ingress
 spec:
-  tls:
-  - hosts:
-    - cafe1.minvu.cl
-    secretName: cafe-secret
+  #tls:
+  #- hosts:
+  #  - cafe1.minvu.cl
+  #  secretName: cafe-secret
   rules:
   - host: cafe1.minvu.cl
     http:
