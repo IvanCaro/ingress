@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: pssim-ingress
+spec:
+  tls:
+  - hosts:
+    - pssim.minvu.cl
+    secretName: pssim-api-secret
+  rules:
+  - host: pssim.minvu.cl
+    http:
+      paths:
+      - path: /api
+        backend:
+          serviceName: tea-svc
+          servicePort: 80
