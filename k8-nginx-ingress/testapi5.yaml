@@ -50,7 +50,7 @@ spec:
   tls:
   - hosts:
     - "blue.minvu.cl"
-    secretName: pssim-secret
+    secretName: pssim-api-secret
   rules:
   - host: "blue.minvu.cl"
     http:
@@ -59,10 +59,3 @@ spec:
         backend:
           serviceName: testapi
           servicePort: 80
-  - host: "green.minvu.cl"
-    http:
-      paths:
-      - path: /testapi/get/green
-        backend:
-          serviceName: testapi
-          servicePort: 80   

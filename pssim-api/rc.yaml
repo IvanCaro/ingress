@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: pssim-api-rc
 spec:
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
