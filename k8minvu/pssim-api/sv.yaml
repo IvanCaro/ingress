@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: coffee-svc-2
+  name: pssim-api-svc
   labels:
-    app: coffee-2
+    app: pssim-api
 spec:
   ports:
   - port: 80
@@ -11,4 +11,4 @@ spec:
     protocol: TCP
     name: http
   selector:
-    app: coffee
+    app: pssim-api

@@ -119,6 +119,7 @@ echo "Starting deployment..."
 	set -x
 	az group deployment create --name $deploymentName --resource-group $resourceGroupName \
 	--template-file $templateFilePath \
+	--parameters $parametersFilePath \
 	--verbose \
 	--parameters virtualMachineName=clminvu-k8-$agentName\
 	--parameters networkInterfaceName=clminvu-k8-$agentName\
