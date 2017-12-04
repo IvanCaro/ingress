@@ -1,0 +1,5 @@
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe/nginx-ingress-rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe/coffee-rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe/coffee-svc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe/cafe-ingress.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe/ingress-svc.yaml

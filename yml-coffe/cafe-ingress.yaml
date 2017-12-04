@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: pssim-api2-ingress
+spec:
+  tls:
+  - hosts:
+    - pssim-api2.minvu.cl
+    secretName: pssim-api-secret
+  rules:
+  - host: pssim-api2.minvu.cl
+    http:
+      paths:
+      - path: /coffee
+        backend:
+          serviceName: pssim-api2-svc
+          servicePort: 80

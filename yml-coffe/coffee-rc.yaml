@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: pssim-api2-rc
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: pssim-api2
+    spec:
+      containers:
+      - name: pssim-api2
+        image: nginxdemos/hello
+        ports:
+        - containerPort: 80
