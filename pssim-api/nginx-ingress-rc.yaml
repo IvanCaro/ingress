@@ -1,22 +1,22 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: nginx-ingress-rc-pssim-api
+  name: nginx-ingress
   labels:
-    app: nginx-ingress-pssim-api
+    app: nginx-ingress
 spec:
   replicas: 1
   selector:
-    app: nginx-ingress-pssim-api
+    app: nginx-ingress
   template:
     metadata:
       labels:
-        app: nginx-ingress-pssim-api
+        app: nginx-ingress
     spec:
       containers:
       - image: nginxdemos/nginx-ingress:1.0.0
         imagePullPolicy: Always
-        name: nginx-ingress-pssim-api
+        name: nginx-ingress
         ports:
         - containerPort: 80
           hostPort: 80
@@ -32,4 +32,4 @@ spec:
         args:
          #- -v=3
          #- -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
-          - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret-pssim
+          - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
