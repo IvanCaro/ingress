@@ -10,7 +10,7 @@ spec:
         app: pssim-api
     spec:
       containers:
-      - name: tea
+      - name: pssim-api
         image: ivancaro/test:latest
         ports:
         - containerPort: 80
