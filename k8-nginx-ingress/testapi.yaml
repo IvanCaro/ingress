@@ -23,12 +23,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: testapi 
+  name: testapi
   namespace: default 
   labels:
     application: testapi 
 spec:
-  type: ClusterIP
   selector:
     application: testapi 
   ports:
