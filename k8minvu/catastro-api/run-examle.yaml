@@ -2,4 +2,4 @@ kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8min
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/catastro-api/catastro-ingress.yaml?id=110
 
 # Checkear si es necesario.
-kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/catastro-api/ingress-svc.yaml?id=1003
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/catastro-api/ingress-svc.yaml?id=10033
