@@ -8,7 +8,7 @@ spec:
   tls:
   - hosts:
     - catastro.minvu.cl
-    secretName: cafe-secret
+    secretName: pssim-secret
   rules:
   - host: catastro.minvu.cl
     http:
