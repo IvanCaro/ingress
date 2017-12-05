@@ -17,6 +17,9 @@ spec:
       containers:
       - name: pssim-api
         image: minvu.azurecr.io/pssim-api:04fa09a1eec1bd7ca2d3850f6b61b26b27e393b3
+        env:
+        - name: DB_SERVER
+          value: db-maat-service.default.svc.CLUSTER
         ports:
         - containerPort: 80
       nodeSelector:
