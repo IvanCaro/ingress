@@ -1,0 +1,23 @@
+apiVersion: apps/v1beta1 # for versions before 1.7.0 use apps/v1beta1
+kind: Deployment
+metadata:
+  name: catastro-api
+  labels:
+    app: catastro-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: catastro-api
+  template:
+    metadata:
+      labels:
+        app: catastro-api
+    spec:
+      containers:
+      - name: catastro-api
+        image: minvu.azurecr.io/catastro_api:44e8272b363821e7a4e45ee90a7c0353469cbd0e
+        ports:
+        - containerPort: 80
+      nodeSelector:
+        beta.kubernetes.io/os: linux
