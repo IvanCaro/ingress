@@ -1,0 +1,9 @@
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: dbMaatService
+subsets:
+  - addresses:
+      - ip: "10.40.5.44"
+    ports:
+      - port: 1433

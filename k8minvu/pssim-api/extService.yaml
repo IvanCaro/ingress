@@ -1,0 +1,8 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: dbMaatService
+  namespace: prod
+spec:
+  type: ExternalName
+  externalName: maat.minvu.cl
