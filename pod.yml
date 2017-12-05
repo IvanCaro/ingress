@@ -1,1 +1,0 @@
-kubectl get nodes -o json | grep ExternalIP -A 2 "type": "ExternalIP", "address": "104.198.1.26"}

@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: catastro-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  #tls:
+  #- hosts:
+  #  - cafe1.minvu.cl
+  #  secretName: cafe-secret
+  rules:
+  - host: catastro.minvu.cl
+    http:
+      paths:
+      - path: /api
+        backend:
+          serviceName: catastro-svc
+          servicePort: 80
