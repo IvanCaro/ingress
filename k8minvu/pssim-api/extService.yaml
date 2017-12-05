@@ -5,4 +5,4 @@ metadata:
   #namespace: prod
 spec:
   type: ExternalName
-  externalName: maat.minvu.cl
+  externalName: winp-adexternos.minvu.cl
