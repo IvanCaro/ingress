@@ -21,3 +21,5 @@ spec:
         - containerPort: 80
       nodeSelector:
         beta.kubernetes.io/os: linux
+      imagePullSecrets:
+        - name: azureregistry
