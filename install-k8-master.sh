@@ -8,8 +8,8 @@ apt-get update &&
 apt-get install -y docker.io kubeadm kubectl kubelet kubernetes-cni &&
 kubeadm init
 
-export KUBECONFIG=/etc/kubernetes/admin.conf &&
 kubectl apply --filename https://git.io/weave-kube-1.6
+export KUBECONFIG=/etc/kubernetes/admin.conf
 
 kubectl cluster-info &&
 kubectl get nodes --watch

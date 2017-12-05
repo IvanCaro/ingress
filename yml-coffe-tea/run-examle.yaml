@@ -8,5 +8,3 @@ kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-c
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/cafe-secret.yaml?id=100
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/cafe-ingress.yaml?id=100
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/yml-coffe-tea/ingress-svc.yaml?id=100
-
-
