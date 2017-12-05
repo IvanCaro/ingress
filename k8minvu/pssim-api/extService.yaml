@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: dbMaatService
+  name: db-maat-service
   namespace: prod
 spec:
   type: ExternalName

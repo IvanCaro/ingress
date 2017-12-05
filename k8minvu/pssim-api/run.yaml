@@ -1,3 +1,8 @@
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/deploy.yaml?id=1002
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/svc.yaml?id=100
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress.yaml?id=110
+
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/dbService.yaml?id=110
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/endPoint.yaml?id=110
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/extService.yaml?id=110
+
