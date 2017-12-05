@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - pssim-api.minvu.cl
-    secretName: pssim-api-secret
+    - pssim-api-int.minvu.cl
+    secretName: default-tls-secret
   rules:
-  - host: pssim-api.minvu.cl
+  - host: pssim-api-int.minvu.cl
     http:
       paths:
       - path: /api
