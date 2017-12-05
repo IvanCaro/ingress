@@ -5,10 +5,10 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: "nginx"
 spec:
-  #tls:
-  #- hosts:
-  #  - cafe1.minvu.cl
-  #  secretName: cafe-secret
+  tls:
+  - hosts:
+    - catastro.minvu.cl
+    secretName: cafe-secret
   rules:
   - host: catastro.minvu.cl
     http:
