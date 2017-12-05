@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pssim-api
-        image: ivancaro/test
+        image: minvu.azurecr.io/pssim-api:04fa09a1eec1bd7ca2d3850f6b61b26b27e393b3
         ports:
         - containerPort: 80
       nodeSelector:
