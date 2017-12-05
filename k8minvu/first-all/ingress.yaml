@@ -2,8 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: pssim-api-ingress
-  annotations:
-    kubernetes.io/ingress.class: "nginx"
 spec:
   tls:
   - hosts:
@@ -13,7 +11,7 @@ spec:
   - host: pssim-api.minvu.cl
     http:
       paths:
-      - path: /api
+      - path: /
         backend:
           serviceName: pssim-api-svc
           servicePort: 80

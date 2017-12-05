@@ -1,0 +1,13 @@
+kind: "Service"
+apiVersion: "v1"
+metadata:
+  name: "example-external-service"
+spec:
+  ports:
+    -
+      name: "mssql"
+      protocol: "TCP"
+      port: 1433
+      targetPort: 1433
+      nodePort: 0
+selector: {} 

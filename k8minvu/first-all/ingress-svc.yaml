@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ingress-svc
+  name: ingress-svc-pssim-api
   labels:
-    app: nginx-ingress
+    app: nginx-ingress-pssim-api
 spec:
   ports:
   - port: 80
@@ -15,6 +15,6 @@ spec:
     name: https
     targetPort: 443
   selector:
-    app: nginx-ingress
+    app: nginx-ingress-pssim-api
   externalIPs:
   - 10.201.2.19

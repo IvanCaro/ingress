@@ -1,0 +1,9 @@
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/default-server-secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/addRole.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/nginx-ingress-rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/rc.yaml
+
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/svc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/secret.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress-svc.yaml
