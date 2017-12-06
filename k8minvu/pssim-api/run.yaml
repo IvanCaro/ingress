@@ -1,4 +1,4 @@
-kubectl replace -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/deploy.yaml?id=10ddd02sds44
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/deploy.yaml?id=10ddd02sds44
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/svc.yaml?id=100wewe
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress.yaml?id=110sdsd
 
