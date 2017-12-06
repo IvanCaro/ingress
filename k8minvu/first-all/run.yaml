@@ -1,9 +1,6 @@
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/default-server-secret.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/addRole.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/nginx-ingress-rc.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/rc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/default-server-secret.yaml?id=3y3g
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/addRole.yaml
+kubectl replace -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/secret.yaml?id=2272ewe6
 
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/svc.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/secret.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress.yaml
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress-svc.yaml
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/nginx-ingress-rc.yaml?id=3777665
+kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/ingress-svc.yaml?id=1134565ee

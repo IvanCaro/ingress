@@ -15,7 +15,7 @@
             "value": "minvu"
         },
         "virtualNetworkName": {
-            "value": "Vnet-Qa-Produccion"
+            "value": "Vnet-Desarrollo"
         },
         "networkInterfaceName": {
             "value": "clminvu-k8-master215"
@@ -36,13 +36,13 @@
             "value": "3"
         },
         "diagnosticsStorageAccountName": {
-            "value": "clminvulagash"
+            "value": "clminvuintadm"
         },
         "diagnosticsStorageAccountId": {
-            "value": "/subscriptions/b21c32c2-4e59-433a-8c53-ebd4729d33ab/resourceGroups/administracion/providers/Microsoft.Storage/storageAccounts/clminvulagash"
+            "value": "/subscriptions/bfc4f7f7-7504-4d5b-bdac-36c9bef9b9ba/resourceGroups/administracion/providers/Microsoft.Storage/storageAccounts/clminvuintadm"
         },
         "subnetName": {
-            "value": "SubredProduccion"
+            "value": "SubredDesarrollo"
         },
         "publicIpAddressName": {
             "value": "clminvu-k8-master-ip"
