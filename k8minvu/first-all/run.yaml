@@ -4,3 +4,5 @@ kubectl replace -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8m
 
 kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/nginx-ingress-rc.yaml?id=3777665
 kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/ingress-svc.yaml?id=1134565ee
+
+# run acrLoginSecret.sh

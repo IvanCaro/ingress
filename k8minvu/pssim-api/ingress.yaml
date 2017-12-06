@@ -8,7 +8,7 @@ spec:
   tls:
   - hosts:
     - pssim-api-int.minvu.cl
-    secretName: default-tls-secret
+    secretName: default-server-secret
   rules:
   - host: pssim-api-int.minvu.cl
     http:
