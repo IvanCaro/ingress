@@ -2,6 +2,7 @@ kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8min
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/svc.yaml?id=100wewe
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/ingress.yaml?id=110sdsd
 
+
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/dbService.yaml?id=1102
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/endPoint.yaml?id=1102
 kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/pssim-api/extService.yaml?id=1102
