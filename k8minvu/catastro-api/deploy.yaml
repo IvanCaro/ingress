@@ -25,13 +25,13 @@ spec:
         - name: REDIS_URL
           value: "clminvu-catastro.redis.cache.windows.net"
         - name: REDIS_PORT
-          value: 6380
+          value: "6380"
         - name: REDIS_PASS
           value: "dgLmwMCN6MVjQg/cok1r4b1o3X+B1KFF8nr5z37WNOA="
         - name: ConnectionDb
           value: "mongodb://clminvu-catastro:HnmNvLcAGTvPoXtwM1wc2VdHuDfhdKBQ8EqlAIsdLp3sfKGiKmOx4Hlllelrf4ycGc2XL3IPTUTMPN0am94ZPQ==@clminvu-catastro.documents.azure.com:10255/?ssl=true"
         - name: AZURE_STORAGE_ACCOUNT
-          value: clminvustgcatastro
+          value: "clminvustgcatastro"
         - name: AZURE_STORAGE_ACCESS_KEY
           value: "R7QpgAnqZIsJLY6DRJFeAJoMXZ61ByWxlVaCbOUipRwBvgtdeElOwSG+7+iXkOduBQLIfIUfqwkZ0TWWi21Mag=="
         - name: AZURE_STORAGE_CONNECTION_STRING
