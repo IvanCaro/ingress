@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: catastro-web-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  tls:
+  - hosts:
+    - catastro-web.minvu.cl
+    secretName: default-server-secret
+  rules:
+  - host: catastro-web.minvu.cl
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: catastro-web-svc
+          servicePort: 80

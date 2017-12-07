@@ -1,0 +1,25 @@
+apiVersion: apps/v1beta1 # for versions before 1.7.0 use apps/v1beta1
+kind: Deployment
+metadata:
+  name: catastro-web
+  labels:
+    app: catastro-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: catastro-web
+  template:
+    metadata:
+      labels:
+        app: catastro-web
+    spec:
+      containers:
+      - name: catastro-web
+        image: minvu.azurecr.io/catastro-web:50ab443193697c4c7b1bf7a72efc80037229e925
+        ports:
+        - containerPort: 80
+      nodeSelector:
+        beta.kubernetes.io/os: linux
+      imagePullSecrets:
+        - name: azureregistry
