@@ -19,7 +19,7 @@ spec:
         image: minvu.azurecr.io/pssim-api:04fa09a1eec1bd7ca2d3850f6b61b26b27e393b3
         env:
         - name: APPINSIGHTS_INSTRUMENTATIONKEY
-          value: b0fe910e-1983-4a98-b098-def895096968
+          value: e45c21ac-9811-4e05-920b-0a6f26858ce8
         ports:
         - containerPort: 80
       nodeSelector:
