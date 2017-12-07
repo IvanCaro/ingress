@@ -3,6 +3,6 @@ kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8mi
 #kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/secret.yaml?id=2272ewe6
 
 kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/nginx-ingress-rc.yaml?id=3777665
-kubectl create -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/ingress-svc.yaml?id=1134565ee
+kubectl apply -f https://raw.githubusercontent.com/IvanCaro/ingress/master/k8minvu/first-all/ingress-svc.yaml?id=1134565ee
 
 # run acrLoginSecret.sh
