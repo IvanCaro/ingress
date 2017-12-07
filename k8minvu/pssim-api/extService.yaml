@@ -1,8 +1,0 @@
-kind: Service
-apiVersion: v1
-metadata:
-  name: db-maat-service
-  #namespace: prod
-spec:
-  type: ExternalName
-  externalName: winp-adexternos.minvu.cl

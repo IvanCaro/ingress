@@ -1,9 +1,0 @@
-kind: Endpoints
-apiVersion: v1
-metadata:
-  name: db-maat-service
-subsets:
-  - addresses:
-      - ip: "10.40.5.44"
-    ports:
-      - port: 1433
