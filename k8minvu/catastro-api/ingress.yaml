@@ -8,7 +8,7 @@ spec:
   tls:
   - hosts:
     - catastro-api.minvu.cl
-    secretName: pssim-api-secret
+    secretName: default-server-secret
   rules:
   - host: catastro-api.minvu.cl
     http:
