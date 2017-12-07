@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: catastro-web
-        image: minvu.azurecr.io/catastro-web:50ab443193697c4c7b1bf7a72efc80037229e925
+        image: minvu.azurecr.io/catastro-web:79721df904a00bbf13086c1d27d9ff5edb587aee
         ports:
         - containerPort: 80
       nodeSelector:
