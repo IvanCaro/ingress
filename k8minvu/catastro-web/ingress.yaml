@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - catastro-web.minvu.cl
+    - catastro.minvu.cl
     secretName: default-server-secret
   rules:
-  - host: catastro-web.minvu.cl
+  - host: catastro.minvu.cl
     http:
       paths:
       - path: /
