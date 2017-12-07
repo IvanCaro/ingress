@@ -7,3 +7,4 @@ EOF
 apt-get update &&
 apt-get install -y docker.io kubeadm kubectl kubelet kubernetes-cni
 
+#kubeadm join --token 82f0c8.94a17ca36c98a898 10.201.2.18:6443 --discovery-token-ca-cert-hash sha256:c9c71bd579a223f8bcb11d5e2027162b1c7f0d9d47876897d4df9f186fae5166
